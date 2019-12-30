@@ -1,0 +1,245 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.ad_login{
+  color: aliceblue;
+}
+.login {
+  margin-top: 40px;
+}
+.login-form1 {
+  border: 2px solid lightblue;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(10, 10, 10, 0.424);
+}
+.ant-tabs-nav .ant-tabs-tab {
+  font-size: 24px;
+}
+.content {
+  margin-top: 50px;
+}
+.ant-tabs-tabpane {
+  border: 2px solid rgba(85, 84, 84, 0.637);
+  padding-bottom: 50px;
+}
+.back {
+  margin-left: -85%;
+  margin-top: -40%;
+}
+
+@media (max-width: 784px) {
+  .view_but {
+    margin-top: -90px;
+  }
+}
+
+/* add aspian */
+.addaspian {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: -60px;
+}
+/* add election */
+.addelection {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: -60px;
+}
+
+/* an election item */
+.election {
+  padding: 5px;
+  max-height: 200px;
+  margin-bottom: 30px;
+  background-color: rgba(100, 148, 237, 0.308);
+  margin-left: 25%;
+  margin-right: 5px;
+}
+.hide_elections{
+  margin-left: -84%;
+}
+.hide{
+  margin-left: -90%;
+ margin-top: -100%;
+}
+.elect_list{
+  margin-top: -150px;
+}
+.elect_head{
+  margin-top: 80px;
+}
+@media (max-width: 450px) {
+  .election {
+    margin-left: 15%;
+  }
+  .hide{
+   margin-top: -151%;
+  }
+  .elect_list{
+    margin-top: -179px;
+  }
+  .elect_head{
+    margin-top: -20px;
+  }
+}
+.posts{
+  margin-left: 30px;
+}
+.register{
+  margin-left: 10%;
+  margin-top: -20%;
+}
+.reg_candidates{
+  margin-left: 50%;
+  margin-top: -3%;
+  padding-right: 25px;
+  margin-left: 100px;
+}
+@media (max-width:800px){
+  .reg_candidates{
+    margin-left: 8%;
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+}
+.ant-table-tbody > tr > td{
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(23, 77, 139);
+  border-bottom: 1px solid #3d3d3d;
+}
+
+.anticon svg {
+  color: black;
+  font-size: 14px;
+}
+/* candidates page styles */
+.can_post{
+  background-color: rgba(5, 104, 161, 0.301);
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+.can_head{
+  border-bottom: 2px solid rgb(4, 86, 141);
+  background-color: rgba(69, 134, 172, 0.897);
+  padding-left: 20px;
+  -webkit-box-shadow: 2px 4px 5px 0px rgb(45, 74, 83);
+-moz-box-shadow: 2px 4px 5px 0px rgb(45, 74, 83);
+box-shadow: 2px 4px 5px 0px rgb(45, 74, 83);
+}
+.can{
+  border-radius: 5px;
+  background-color: rgba(126, 165, 190, 0.472);
+  border: 1px solid rgb(0, 0, 0);
+  margin: 5px;
+  padding: 5px;
+  padding-left: 15px;
+}
+.can:hover{
+  background-color: rgba(7, 150, 216, 0.472);
+}
+.can h5 {
+  color: white;
+  font-weight: bold;
+}
+/* voting styles */
+.ant-radio-wrapper{
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.vote_head{
+  border-bottom: 2px solid rgb(4, 86, 141);
+  background-color: rgba(69, 134, 172, 0.897);
+  padding-left: 20px;
+  -webkit-box-shadow: 2px 4px 5px 0px rgb(45, 74, 83);
+-moz-box-shadow: 2px 4px 5px 0px rgb(45, 74, 83);
+box-shadow: 2px 4px 5px 0px rgb(45, 74, 83);
+
+}
+.vote_head h4 {
+  color: white;
+}
+.vote{
+  border-radius: 5px;
+  background-color: rgba(126, 165, 190, 0.472);
+  border: 1px solid rgb(0, 0, 0);
+  margin: 5px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+.vote:hover{
+  background-color: rgba(7, 150, 216, 0.472);
+}
+/* results style */
+.win{
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  margin: 5px;
+  padding: 5px;
+  padding-left: 15px;
+}
+.loss{
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  margin: 5px;
+  padding: 5px;
+  padding-left: 15px;
+}
+.can:hover{
+  background-color: rgba(7, 150, 216, 0.472);
+}
+.win h5 {
+  font-weight: bold;
+}
+.res_head{
+  border-bottom: 2px solid rgb(4, 86, 141);
+  background-color: rgba(69, 134, 172, 0.897);
+  padding-left: 20px;
+  -webkit-box-shadow: 2px 4px 5px 0px rgb(45, 74, 83);
+-moz-box-shadow: 2px 4px 5px 0px rgb(45, 74, 83);
+box-shadow: 2px 4px 5px 0px rgb(45, 74, 83);
+}
+.res_head h4{
+  color: white;
+}
+.ant-progress-text{
+  display:flex;
+  float:right;
+  margin-right: 38px;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  background-color: rgba(52, 126, 148, 0.281);
+}
